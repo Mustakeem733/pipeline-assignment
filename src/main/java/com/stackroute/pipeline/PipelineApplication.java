@@ -20,4 +20,9 @@ public class PipelineApplication {
 		return "Hello From Pipelining";
 	}
 
+	@GetMapping("/viewall")
+	public String pipeline(){
+		return "Hello From CI/CD pipeline";
+	}
+
 }
